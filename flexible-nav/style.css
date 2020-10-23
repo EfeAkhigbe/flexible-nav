@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(252, 244, 241);
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    border: 5px solid rgb(102, 100, 100);
+    padding: 0;
+    background-color: rgb(253, 107, 107);
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        flex-wrap: wrap;
+    }
+
+    a {
+        font-size: 23px;
+    }
+
+    li {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+}
+
